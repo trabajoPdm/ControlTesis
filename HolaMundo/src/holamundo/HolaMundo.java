@@ -30,6 +30,10 @@ public class HolaMundo {
          
          
          
+         JOptionPane.showMessageDialog(null,"esa es la u " );
+             JOptionPane.showMessageDialog(null,"esa es la u " );
+         
+                 JOptionPane.showMessageDialog(null,"esa es la u " );
          
          
          
