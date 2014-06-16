@@ -46,23 +46,23 @@ public class Alumno implements Serializable {
     @Basic(optional = false)
     @NotNull
     @Size(min = 1, max = 30)
-    @Column(name = "APELLIDOALUMNO")
+    @Column(name = "APELLIDO")
     private String apellidoalumno;
     @Size(max = 30)
-    @Column(name = "SEXOALUMNO")
+    @Column(name = "SEXO")
     private String sexoalumno;
     @Basic(optional = false)
     @NotNull
     @Size(min = 1, max = 30)
-    @Column(name = "DIRECCIONALUMNO")
+    @Column(name = "DIRECCION")
     private String direccionalumno;
     @Basic(optional = false)
     @NotNull
     @Size(min = 1, max = 40)
-    @Column(name = "EMAILALUMNO")
+    @Column(name = "EMAIL")
     private String emailalumno;
     @Size(max = 8)
-    @Column(name = "TELEFONOALUMNO")
+    @Column(name = "TELEFONO")
     private String telefonoalumno;
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "alumno", fetch = FetchType.LAZY)
     private List<Nota> notaList;

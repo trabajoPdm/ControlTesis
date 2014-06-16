@@ -24,12 +24,7 @@ public class HolaMundo {
        JOptionPane.showMessageDialog(null, "Hola Bitches ");
         JOptionPane.showMessageDialog(null, "Hola Bitches ");
          JOptionPane.showMessageDialog(null, "Hola Bitches ");
-         
-         
-         
-         
-         
-         
+     
          JOptionPane.showMessageDialog(null,"esa es la u " );
              JOptionPane.showMessageDialog(null,"esa es la u " );
          
