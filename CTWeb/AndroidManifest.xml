@@ -22,6 +22,34 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="sv.fia.ues.controltesisw.AlumnoMenuActivity"
+            android:label="@string/title_activity_alumno_menu" >
+        </activity>
+        <activity
+            android:name="sv.fia.ues.controltesisw.AlumnoInsertActivity"
+            android:label="@string/title_activity_alumno_insert" >
+        </activity>
+        <activity
+            android:name="sv.fia.ues.controltesisw.EtapaMenuActivity"
+            android:label="@string/title_activity_etapa_menu" >
+        </activity>
+        <activity
+            android:name="sv.fia.ues.controltesisw.NotaMenuActivity"
+            android:label="@string/title_activity_nota_menu" >
+        </activity>
+        <activity
+            android:name="sv.fia.ues.controltesisw.AlumnoConsultarActivity"
+            android:label="@string/title_activity_alumno_consultar" >
+        </activity>
+        <activity
+            android:name="sv.fia.ues.controltesisw.AlumnoActualizarActivity"
+            android:label="@string/title_activity_alumno_actualizar" >
+        </activity>
+        <activity
+            android:name="sv.fia.ues.controltesisw.AlumnoEliminarActivity"
+            android:label="@string/title_activity_alumno_eliminar" >
+        </activity>
     </application>
 
 </manifest>

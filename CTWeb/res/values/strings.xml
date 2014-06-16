@@ -4,5 +4,12 @@
     <string name="app_name">ControlTesisW</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_alumno_menu">Gestion de Alumnos</string>
+    <string name="title_activity_alumno_insert">Insertar Alumno</string>
+    <string name="title_activity_etapa_menu">Gestion de Etapas</string>
+    <string name="title_activity_nota_menu">Gestion de Notas</string>
+    <string name="title_activity_alumno_consultar">Consultar Alumno</string>
+    <string name="title_activity_alumno_actualizar">Actualizar Alumno</string>
+    <string name="title_activity_alumno_eliminar">Eliminar Alumno</string>
 
 </resources>
