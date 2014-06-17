@@ -1,6 +1,5 @@
 package sv.fia.ues.controltesisw;
 
-import android.R;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
@@ -18,11 +17,20 @@ public class MainActivity extends Activity {
 		
 	}
 
-	public void loadAlumno(View v){
+	public void loadAlumnos(View v){
 		
 		Intent intento=new Intent(this,AlumnoMenuActivity.class);
 		startActivity(intento);
 	}	
+public void loadEtapas(View v){
+		
+		Intent intento=new Intent(this,EtapaMenuActivity.class);
+		startActivity(intento);
+	}public void loadNotas(View v){
+		
+		Intent intento=new Intent(this,NotaMenuActivity.class);
+		startActivity(intento);
+	}
 	
 
 }

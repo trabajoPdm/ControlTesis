@@ -16,8 +16,8 @@
         android:layout_alignLeft="@+id/button2"
         android:layout_below="@+id/button2"
         android:layout_marginTop="48dp"
-        android:O
-        android:text="Gestionar Notas" 
+        android:text="Gestionar Notas"
+        android:onClick="loadNotas" 
         />
 
     <Button
@@ -27,8 +27,8 @@
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/button1"
         android:layout_marginTop="40dp"
-        android:
-        android:text="Gestionar Etapa" />
+        android:text="Gestionar Etapa" 
+        android:onClick="loadEtapas" />
 
     <Button
         android:id="@+id/button1"
@@ -37,6 +37,7 @@
         android:layout_alignLeft="@+id/button2"
         android:layout_alignParentTop="true"
         android:layout_marginTop="37dp"
-        android:text="Gestionar Alumno" />
+        android:text="Gestionar Alumno" 
+        android:onClick="loadAlumnos" />
 
 </RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="30dip"
+    android:stretchColumns="1"
+    >
+
+    <TableRow>
+
+        <TextView android:text="@string/idetapa" />
+
+        <EditText
+            android:id="@+id/editIDEtapa"
+            android:inputType="text"
+            android:maxLength="35" />
+    </TableRow>
+    <TableRow>
+
+        <TextView android:text="@string/fechadeinicioetapa" />
+
+        <EditText
+            android:id="@+id/editFechaDeInicioEtapa"
+            android:inputType="text"
+            android:maxLength="10" 
+             android:hint="YYYY-MM-dd"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="@string/fechadefinalizacionetapa" />
+
+        <EditText
+            android:id="@+id/editFechaDeFinalizacionEtapa"
+            android:inputType="text"
+            android:maxLength="10" 
+            android:hint="YYYY-MM-dd"/>
+    </TableRow>
+    
+ <TableRow>
+
+        <Button
+            android:onClick="actualizarEtapa"
+            android:text="@string/actualizar" />
+
+        <Button
+            android:onClick="limpiarTexto"
+            android:text="@string/limpiar" />
+    </TableRow>
+
+ 
+
+</TableLayout>

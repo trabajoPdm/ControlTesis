@@ -11,5 +11,33 @@
     <string name="title_activity_alumno_consultar">Consultar Alumno</string>
     <string name="title_activity_alumno_actualizar">Actualizar Alumno</string>
     <string name="title_activity_alumno_eliminar">Eliminar Alumno</string>
+    <string name="title_activity_etapa_insertar">Insertar Etapa</string>
+    <string name="title_activity_etapa_eliminar">Eliminar Etapa</string>
+    <string name="title_activity_etapa_consultar">Consultar Etapa</string>
+    <string name="title_activity_etapa_actualizar">Actualizar Etapa</string>
+    <string name="title_activity_nota_insertar">Insertar Nota</string>
+    <string name="title_activity_nota_consultar">Consultar Nota</string>
+    <string name="title_activity_nota_actualizar">Actualizar Nota</string>
+    <string name="title_activity_nota_eliminar">Eliminar Nota</string>
+     <string name="idetapa">idEtapa</string>
+    <string name="fechadeinicioetapa">fechaDeInicioEtapa</string>
+    <string name="fechadefinalizacionetapa">fechaDeFinalizacionEtapa</string>
+    
+     
+    <string name="nombre">Nombre</string>
+    <string name="idEtapa">Codigo de Etapa</string>
+    <string name="carnet">Carnet</string>
+    <string name="apellido">Apellido</string>
+    <string name="sexo">Sexo</string>
+    <string name="direccion">Direccion</string>
+    <string name="telefono">Telefono</string>
+    <string name="email">Email</string>
+    <string name="consultar">Consultar</string>
+    <string name="insertar">Insertar</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="notaAlumno">Nota</string>
+ 
 
 </resources>
